@@ -22,11 +22,31 @@ function arrays() {
 }
 //index
 //element
-function userLogin() {
+function userLogin() 
+{
     var result = prompt("please enter your user name")
     alert(result)
-    
-    
 }
+
+function loopExercise() 
+{
+    var index= 10
+    for (var index = 0; index <10; index++) { alert(index) }
+    
+     
+        
+}
+
+function calculateScore() {
+    var playerScore = [150, 275, 600, 123, 834]
+    var sum= 0
+    for (let index = 0; index < playerScore.length; index++) {
+       sum += playerScore [index]
+       alert(sum)
+        
+    }
+}
+    
+
 
 
